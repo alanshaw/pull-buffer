@@ -1,5 +1,7 @@
 # pull-buffer
 
+[![Build Status](https://travis-ci.org/alanshaw/pull-buffer.svg?branch=master)](https://travis-ci.org/alanshaw/pull-buffer) [![dependencies Status](https://david-dm.org/alanshaw/pull-buffer/status.svg)](https://david-dm.org/alanshaw/pull-buffer)
+
 > Buffer a pull stream and then stream the buffer as a single value
 
 ## Example
