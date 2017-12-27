@@ -1,0 +1,24 @@
+{
+  "name": "pull-buffer",
+  "version": "0.0.0",
+  "description": "Buffer a pull stream and then stream the buffer as a single value",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "buffer",
+    "collect",
+    "concat"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "pull-defer": "^0.2.2",
+    "pull-stream": "^3.6.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  }
+}
