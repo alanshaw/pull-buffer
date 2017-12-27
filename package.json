@@ -1,6 +1,6 @@
 {
   "name": "pull-buffer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Buffer a pull stream and then stream the buffer as a single value",
   "main": "index.js",
   "scripts": {
