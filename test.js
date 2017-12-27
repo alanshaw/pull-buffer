@@ -21,6 +21,21 @@ test('should buffer values', (t) => {
   )
 })
 
+test('should abort if error', (t) => {
+  pull(
+    pull.values([1, 2, 3]),
+    // Multiply by 2 over some random time
+    pull.asyncMap((n, cb) => {
+      setTimeout(() => cb(new Error('BOOM')))
+    }),
+    buffer(),
+    pull.collect((err) => {
+      t.equal(err.message, 'BOOM')
+      t.end()
+    })
+  )
+})
+
 function random (min, max) {
   min = Math.ceil(min)
   max = Math.floor(max)
