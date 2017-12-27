@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alanshaw/pull-buffer.svg?branch=master)](https://travis-ci.org/alanshaw/pull-buffer) [![dependencies Status](https://david-dm.org/alanshaw/pull-buffer/status.svg)](https://david-dm.org/alanshaw/pull-buffer)
 
-> Buffer a pull stream and then stream the buffer as a single value
+> Buffer a pull stream and then stream the buffer as a single value. Like `pull.collect` but instead of a sink this is a through
 
 ## Example
 
