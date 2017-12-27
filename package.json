@@ -20,5 +20,13 @@
   "devDependencies": {
     "standard": "^10.0.3",
     "tape": "^4.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanshaw/pull-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/pull-buffer/issues"
+  },
+  "homepage": "https://github.com/alanshaw/pull-buffer#readme"
 }
