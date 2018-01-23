@@ -6,7 +6,7 @@
 > 
 > Like `pull.collect` but instead of a sink this is a through.
 
-## Example
+## Usage
 
 ```js
 
@@ -26,3 +26,11 @@ pull(
   })
 )
 ```
+
+## Contribute
+
+Feel free to dive in! [Open an issue](https://github.com/alanshaw/pull-buffer/issues/new) or submit PRs.
+
+## License
+
+[MIT](LICENSE) © Alan Shaw
